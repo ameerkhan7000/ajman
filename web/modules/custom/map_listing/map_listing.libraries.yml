@@ -1,0 +1,12 @@
+map_listing.map:
+  version: 1.x
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css: { type: external }
+  js:
+    https://mapgl.2gis.com/api/js/v1: { type: external, minified: true, attributes: { defer: true } }
+    js/map.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupalSettings    

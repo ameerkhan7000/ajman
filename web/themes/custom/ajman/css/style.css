@@ -1,0 +1,38 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+ #map-container {
+  margin: 0;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+#edit-places input {
+  left: 50px;
+  z-index: -999999999;
+  position: relative;
+}
+#navbar-main {
+  display: none;
+}
+#navbar-top {
+  background-color: #fff !important;
+  border-bottom: 1px solid black;
+}
+.nav-link {
+  color: #000;
+}
+.title {
+  display: none;
+}
+#main {
+  max-width: unset;
+}
+.map-class {
+  border-left: 1px solid black;
+}
+#map-wrapper {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+}

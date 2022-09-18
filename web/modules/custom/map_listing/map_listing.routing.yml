@@ -1,0 +1,15 @@
+map_listing.map:
+  path: '/map-view'
+  defaults:
+    _form: '\Drupal\map_listing\Form\DynamicMap'
+    _title: 'Ajman'
+  requirements:
+    _permission: 'access content'
+
+map_listing.settings:
+  path: '/admin/config/2gis/settings'
+  defaults:
+    _form: '\Drupal\map_listing\Form\MapSettingsForm'
+    _title: 'Settings'
+  requirements:
+    _permission: 'administer site configuration'
